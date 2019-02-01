@@ -1,7 +1,7 @@
 # drupal-scripts
 
 ## Copy alt to captions
-PHP script to copy content content from img alt attributes to data-caption attributes for use with D8 Caption Image filter
+PHP script to copy content content from img alt attributes to data-caption attributes for use with D8 [Caption filter](https://www.drupal.org/project/caption_filter)
 
 1. Download [copy_alt_to_captions.php](https://github.com/lizkrznarich/drupal-scripts/blob/master/copy_alt_to_captions.php) from this repository
 2. Edit [copy_alt_to_captions.php lines 6-9](https://github.com/lizkrznarich/drupal-scripts/blob/master/copy_alt_to_captions.php#L6) to add your Drupal database connection info (as found in sites/default/settings.php)
