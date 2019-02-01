@@ -1,12 +1,12 @@
 <?php 
 /**
-* PHP script to copy content content from img alt attributes to data-caption attributes for use with D* Caption Image filter
+* PHP script to copy content content from img alt attributes to data-caption attributes for use with D8 Caption filter. Also resizes images that are currently 500px wide, scaling them to 700px wide.
 */
 //Replace with your database connection info 
-$server = "[YOUR DB HOST, typically localhost]";
-$login = "[YOUR DB USERNAME]";
-$password = "[YOUR DB PASSWORD]";
-$database = "[YOUR DB PASSWORD]";
+$server = "YOUR DB HOST, typically localhost";
+$login = "YOUR DB USERNAME";
+$password = "YOUR DB PASSWORD";
+$database = "YOUR DB PASSWORD";
 $prefix = '';
 $really_update = FALSE; # Set this to TRUE to actually run this conversion
  
